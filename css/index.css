@@ -1,0 +1,244 @@
+/*.swiper-container .swiper-pagination-bullets{
+	text-align: right;
+	bottom: 0.222rem;
+}
+.swiper-pagination-bullet-active{
+	background: white;
+}*/
+.swiper-white{
+	margin-top: 1.1rem;
+}
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+.navs{
+	width: 25%;
+	/*display: flex;*/
+}
+.navs a{
+	/*width: 100%;*/
+	display: block;
+	padding:0.1656rem 0.222rem 0;
+}
+.navs a div{
+	
+	line-height: 0.6rem;
+	color: black;
+	font-size: 0.375rem;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	text-align: center;
+	overflow: hidden;
+}
+.navs a p{
+	line-height: 0.6rem;
+	text-align: center;
+	color: #bbb;
+}
+.navs a img{
+	width: 100%;
+	display: block;
+}
+.quicklink{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	margin-top: 0.222rem;
+}
+.quicklink div{
+	width: 20%;
+}
+.quicklink div a{
+	/*width: 100%;*/
+	display: block;
+	text-align: center;
+	padding: 0.222rem 0.111rem;
+}
+.quicklink div a img{
+	width: 1.1rem;
+	height: 1.1rem;
+	display: inline;
+}
+.quicklink div a p{
+	text-align: center;
+	font-size: 0.375rem;
+	color: #333;
+}
+.notice{
+	height: 1.1rem;
+	border-top: 1px solid #eee;
+	background-color: white;
+	display: flex;
+	/*text-align: center;*/
+}
+.notice .gonggao{
+	width: 1.55rem;
+	/*text-align: center;*/
+	line-height: 1.1rem;
+}
+.notice .gonggao a{
+	height: 100%;
+	display: block;
+	color: black;
+	font-size: 0.375rem;
+	font-weight: bold;
+}
+.voice{
+	width: 0.444rem;
+	height: 0.444rem;
+	padding: 0.111rem 0.222rem;
+	background: url(../images0/icon_notice.png)no-repeat;
+	background-size: contain;
+	align-self: center;
+	margin-left: 0.5rem;
+	border-left: 1px solid #eee;
+}
+.swiper-slide a{
+	width: 100%;
+	height: 100%;
+	line-height: 1.1rem;
+	display: block;
+	color:#888;
+	overflow: hidden;
+}
+.title{
+	text-align: center;
+	line-height: 0.75rem;
+	font-weight:normal;
+}
+.title hr{
+	width: 1.055rem;
+	display: inline-block;
+}
+.title span{
+	display: inline-block;
+	padding:0 0.4165rem;
+	color: #888;
+	font-size: 0.375rem;
+}
+.phone{
+	/*width: 100%;*/
+	background-color: white;
+}
+.phone ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.phone ul li{
+	width: 33%;
+	border-bottom: 1px solid #f7f7f7;
+	border-right: 1px solid #f7f7f7;
+}
+.phone ul li a{
+	display: block;
+	padding: 0.222rem 0.1667rem;
+	text-align: center;
+}
+.phone ul li a .p_img{
+	width: 2rem;
+	height: 2rem;
+	padding: 0.25rem;
+	margin: 0 auto;
+	
+}
+.p_img img{
+	width: 100%;
+	display: block;
+}
+.p_name,.p_promation,.p_price{
+	padding-top: 0.1rem;
+	font-size: 0.375rem;
+	text-align: center;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow: hidden;
+}
+.p_name{
+	color: black;
+}
+.p_promation{
+	color: #888;
+}
+.p_price{
+	color: #ca151e;
+}
+.computer{
+	width: 100%;
+}
+.computer a{
+	display: block;
+}
+.computer a img{
+	width: 100%;
+	display: block;
+}
+.note{
+	background-color: white;
+}
+.note ul{
+	/*width: 100%;*/
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.note ul li{
+	width: 50%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f7f7f7;
+	border-right: 1px solid #f7f7f7;
+}
+.note ul li a{
+	display: block;
+	padding: 0.222rem 0.444rem;
+	text-align: center;
+	position: relative;
+}
+.note ul li a .p_img{
+	width: 2.6656rem;
+	height: 2.6656rem;
+	padding: 0.222rem 0.7222rem;
+	margin: 0 auto;
+}
+.foot{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #eee;
+	background-color: white;
+}
+.foot ul{
+	/*width: 100%;*/
+	display: flex;
+}
+.foot ul li{
+	width: 20%;
+	text-align: center;
+}
+.foot ul li a{
+	color: #333;
+	display: block;
+}
+
+.lists{
+	width: 0.6665rem;
+	height: 0.6665rem;
+	margin: 0 auto;
+	background:url(../images0/list.png)no-repeat;
+	background-size: auto 200%;
+}
+.huawei{
+	background-position:-0.7rem 0.083rem;
+}
+.rongyao{
+	background-position:-1.27rem 0.083rem;
+}
+.type{
+	background-position:-2rem 0.083rem;
+}
+.my{
+	background-position:-2.6rem 0.083rem;
+}

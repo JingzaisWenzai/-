@@ -1,0 +1,17 @@
+.swiper-white{
+	margin-top: 1.1rem;
+}
+.floors{
+	display: flex;
+	margin: 0.222rem 0;
+	justify-content: center;
+}
+.floors div{
+	width: 50%;
+	padding: 0 0.111rem 0 0.222rem;
+}
+.floors div img{
+	width: 100%;
+	display: block;
+}
+
